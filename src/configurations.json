@@ -2,7 +2,7 @@
   "backgroundType": "gradient",
   "plainBackgroundMode": "daylight",
   "devIntro": "goutham jm ",
-  "devDesc": " Full Stack JS  Developer - React | Redux | Node JS | Express | MongoDB | Adobe XD",
+  "devDesc": " Full Stack  Developer - React JS | Golang | Node JS | MongoDB | PostgreSQL ",
   "gradientColors": "#FF5733, #FF5733, #FF5733, #FF5733",
   "icons": [
     {
@@ -18,22 +18,29 @@
       "style": "socialicons"
     },
     {
-      "id": 2,
-      "image": "fas fa-code",
-      "url": "https://www.codewars.com/users/Gauthamjm007?refreshed=true",
+      "id":2,
+      "image":"fab fa-stack-overflow",
+      "url": "https://stackoverflow.com/users/7681839/goutham-j-m",
       "style": "socialicons"
     },
     {
-      "id": 3,
+      "id":4,
+      "image":"fab fa-dev",
+      "url": "https://dev.to/gouthamjm",
+      "style": "socialicons"
+    },
+    {
+      "id": 5,
       "image": "fas fa-file-pdf",
       "url": "https://drive.google.com/file/d/1dLw7n9F_3HAr2jIdmFiJkgVkayTKUZNV/view?usp=sharing",
       "style": "socialicons"
     }
+    
   ],
   "instaLink": "https://www.instagram.com/",
   "instaUsername": "gauthamjm",
   "instaQuerry": "/?__a=1",
-  "aboutDev": "Hi I am an Software engineer with work experience of 1.5 years in Mobile and Web , currently open for  employment opportunities pertaining to Full Stack JS , with any frameworks , I am an enthusiastic developer willing to explore new technologies and learn and try to be a better programmer each single day ",
+  "aboutDev": "Hi , I am an Full Stack Web Application Developer with work experience of 2.5 years across various domains mostly related to SaSS Products with clean UI and UX, currently open for employment opportunities pertaining to Full Stack Roles , with any frameworks , I am an enthusiastic developer willing to explore new technologies and learn and try to be a better programmer each single day ",
   "gitHubLink": "https://api.github.com/users/",
   "gitHubUsername": "GauthamJM007",
   "gitHubQuerry": "/repos?direction=desc&sort=pushed"

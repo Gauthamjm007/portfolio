@@ -21,18 +21,17 @@ class AboutMe extends Component {
     axios
       .get(Configs.instaLink + Configs.instaUsername + Configs.instaQuerry)
       .then((response) => {
-        // handle success
-        // console.log(response.data.graphql);
+
         this.setState({
           instaProfilePic: response.data.graphql.user.profile_pic_url_hd
         });
       })
-      .catch(function(error) {
-        // handle error
+      .catch(function (error) {
+
         console.log(error);
       })
-      .finally(function() {
-        // always executed
+      .finally(function () {
+
       });
   };
 
@@ -49,10 +48,10 @@ class AboutMe extends Component {
               ></img>
             </div>
             <div className=" col-lg-7">
-              <h1 className="display-4 mb-5 text-center">
+              <h1 className="display-4 mb-5 text-left">
                 {this.state.heading}
               </h1>
-              <p className=" lead text-center">{this.state.aboutDev}</p>
+              <p className=" lead text-left">{this.state.aboutDev}</p>
             </div>
           </div>
         </div>

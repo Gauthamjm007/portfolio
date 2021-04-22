@@ -23,18 +23,20 @@ class Project extends Component {
       .get(Configs.gitHubLink + Configs.gitHubUsername + Configs.gitHubQuerry)
       .then((response) => {
         // handle success
-        // console.log(response.data.slice(0, 4));
+
+        const filteredQ = response.data
+          .filter((ele) => ele.stargazers_count !== 0 && ele.watchers !== 0).sort((a, b) => b.stargazers_count - a.stargazers_count).slice(0, 6)
+
+
         this.setState({
-          projectsArray: response.data
-            .filter((ele) => ele.stargazers_count !== 0)
-            .slice(0, 6)
+          projectsArray: filteredQ
         });
       })
-      .catch(function(error) {
+      .catch(function (error) {
         // handle error
         console.log(error);
       })
-      .finally(function() {
+      .finally(function () {
         // always executed
       });
   };
