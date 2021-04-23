@@ -16,7 +16,6 @@ class App extends Component {
         <MainBody></MainBody>
         <AboutMe></AboutMe>
         <Project></Project>
-
         <Footer></Footer>
       </div>
     );

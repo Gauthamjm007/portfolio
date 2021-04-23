@@ -15,13 +15,13 @@ class Footer extends Component {
       <footer style={this.state.bgStyle} className=" mt-auto py-3 text-center">
         <i className="fas fa-code"></i> with <i className="fas fa-heart"></i> by{" "}
         <a
-          className=" badge badge-dark"
+          className=" badge badge-light"
           target="noopener"
           href={"https://github.com/Gauthamjm007"}
         >
           Goutham JM
         </a>{" "}
-        using <i className="fab fa-react"></i>
+        using <i className="far fa-react"></i>
       </footer>
     );
   }
